@@ -16,8 +16,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="../galnet-fonts.html">
     <style>
-      p {
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #000;
+        color: #FF7100;
         font-size: 42px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
       }
       .eurocaps {
         font-family: "eurocaps";
@@ -31,8 +40,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
   </head>
   <body unresolved>
-    <p class="eurocaps">Eurocaps</p>
-    <p class="sintony">Sintoy</p>
-    <p class="sintony-bold">Sintoy Bold</p>
+    <span class="eurocaps">Eurocaps</span>
+    <span class="sintony">Sintoy</span>
+    <span class="sintony-bold">Sintoy Bold</span>
   </body>
 </html>
